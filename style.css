@@ -1,0 +1,24 @@
+html {
+    font-family: 'Crimson Text', serif;
+}
+
+.key {
+   font-weight: bolder; 
+   color: green;
+}
+
+
+.content {
+    font-weight: bold;
+    color: grey;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+    font-family: 'Crimson Text', serif;
+    border: solid;
+    border-color: lightgrey;
+    border-width: 2px;
+}
+
