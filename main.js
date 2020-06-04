@@ -24,7 +24,7 @@ fetch(url)
         gitElem.innerHTML = '<span class="key">GitHub URL:</span>  <span class="content underline">' + data.login + '</span>'
         basicsElem.appendChild(gitElem)
         let bioElem = document.createElement('h4')
-        bioElem.innerHTML = '<class="content">' + data.bio
+        bioElem.innerHTML = '<span class="content">' + data.bio + '</span>'
         storyElem.appendChild(bioElem)
         let img = document.createElement('img')
         img.setAttribute('src', data.avatar_url)
